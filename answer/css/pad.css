@@ -1,0 +1,195 @@
+@charset "utf-8";
+/* 禁用iPhone中Safari的字号自动调整 */
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+/* 去除iPhone中默认的input样式 */
+input[type="submit"],input[type="reset"],input[type="button"],input{-webkit-appearance:none; resize: none;}
+/* 取消链接高亮  */
+body,div,ul,li,ol,h1,h2,h3,h4,h5,h6,input,textarea,select,p,dl,dt,dd,a,img,button,form,table,th,tr,td,tbody,article, 
+aside, details,figcaption,figure,footer,header,hgroup, menu,nav,section{ -webkit-tap-highlight-color:rgba(0, 0, 0, 0); }
+/* 设置HTML5元素为块 */
+article, aside, details,figcaption,figure,footer,header,hgroup, menu,nav,section {
+display: block;
+}
+/* 图片自适应 */
+img {
+max-width: 100%;
+height: auto;
+width:auto\9; /* ie8 */
+-ms-interpolation-mode:bicubic;/*为了照顾ie图片缩放失真*/
+}
+/* 初始化 */
+body,div,ul,li,ol,h1,h2,h3,h4,h5,h6,input,textarea,select,p,dl,dt,dd,a,img,button,form,table,th,tr,td,tbody,article, 
+aside, details,figcaption,figure,footer,header,hgroup, menu,nav,section{margin:0; padding:0; border:none;}
+
+/*pad.css开始了*/
+
+body{background:url(../images/bg2.jpg) no-repeat center top;}
+#header h1{
+	display:none;
+}
+#header{
+	width:100%;
+}
+#nav{
+	width:100%;
+
+}
+#nav span{
+	display:none;
+}
+#nav ul{
+	width:100%;
+}
+#nav ul li{
+	width:11.1111%;
+	padding:0;
+	text-align: center;
+}
+#banner{
+	width:100%;
+	height:auto;
+}
+#banner img{
+	width:100%;
+	height:auto;
+}
+#con{
+	width:98%;
+	height:auto;
+	margin:9px 0 0 1%;
+	background:none;
+	font-size:14px;
+	font-weight:bold;
+}
+#con .up{
+	height:auto;
+}
+#con .up ul{
+	padding:0;
+}
+#con .up li{
+	width:49%;
+	margin-right:1%;
+	margin-bottom:10px;
+	background:-webkit-linear-gradient(90deg, #f1f1f1, #fafafa);
+	background:-ms-linear-gradient(90deg, #f1f1f1, #fafafa);
+	background:-moz-linear-gradient(90deg, #f1f1f1, #fafafa);
+	background:-o-linear-gradient(90deg, #f1f1f1, #fafafa);
+	background:linear-gradient(0deg, #f1f1f1, #fafafa);
+	border:1px solid #ccc;
+	-webkit-border-radius:10px;
+	-ms-border-radius:10px;
+	-moz-border-radius:10px;
+	-o-border-radius:10px;
+	border-radius:10px;
+	-webkit-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	box-sizing:border-box;
+}
+#con .down{
+	height:auto;
+	width:100%;
+	margin:0 auto;
+	background:none;
+}
+.down .down01, .down .down02, .down .down03{
+	width:100%;
+	float:none;
+	background:#f6f6f6;
+	border:1px solid #ccc;
+	margin-top:10px;
+	-webkit-border-radius:10px;
+	-ms-border-radius:10px;
+	-moz-border-radius:10px;
+	-o-border-radius:10px;
+	border-radius:10px;
+}
+.down .down01{
+	position:relative;
+	min-height:175px;
+}
+.down .down01 dd{
+	width:100%;
+	padding-left:150px;
+	-webkit-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	box-sizing:border-box;
+	float:none;
+}
+.down .down01 dt{
+	float:none;
+	position:absolute;
+	left:30px;
+	top:75px;
+}
+.down .down02 li{
+	width:33.3333%;
+	margin-right:0;
+	text-align: center;
+}
+.down .down02 li img{
+	display:block;
+	margin:0 auto;
+}
+.down .down02{
+	padding-bottom:15px;
+}
+.down .down03 p{
+	padding-left:30px;
+	padding-bottom:15px;
+}
+#sub_nav{
+	width:98%;
+	background:#cccccc;
+	margin:10px 1%;
+	-webkit-border-radius:10px;
+	-ms-border-radius:10px;
+	-moz-border-radius:10px;
+	-o-border-radius:10px;
+	border-radius:10px;
+	font-size:14px;
+	font-weight:bold;
+	height:auto;
+}
+#sub_nav a{
+	display:inline-block;
+}
+#sub_nav span{
+	font-weight:normal;
+}
+#footer{
+	width:98%;
+	height:auto;
+	margin:0 1%;
+	background:-webkit-linear-gradient(90deg, #fdfdfd, #eaeaea);
+	background:-moz-linear-gradient(90deg, #fdfdfd, #eaeaea);
+	background:-ms-linear-gradient(90deg, #fdfdfd, #eaeaea);
+	background:-o-linear-gradient(90deg, #fdfdfd, #eaeaea);
+	background:linear-gradient(0deg, #fdfdfd, #eaeaea);
+	border: 1px solid #ccc;
+	-webkit-border-radius:10px;
+	-ms-border-radius:10px;
+	-moz-border-radius:10px;
+	-o-border-radius:10px;
+	border-radius:10px;
+}
+.footer_in{
+	width:100%;
+	height:auto;
+	overflow:hidden;
+}
+#footer p{
+	margin-left:10px;
+	font-size:14px;
+	font-weight:bold;
+}
+#footer h2{
+	margin-right:20px;
+}
